@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-04-06T02:51:54.821Z",
+    "end": "2022-04-06T02:51:55.232Z",
+    "duration": 411
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyName is not defined\n    at Context.<anonymous> (test/indexTest.js:9:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "companyName is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
